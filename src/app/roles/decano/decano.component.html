@@ -1,0 +1,15 @@
+<p>decano works!</p>
+<a [routerLink]="['/']">
+    <h2>Lista Restriccion</h2>
+  </a>
+  
+  
+  <span>{{ listaRestriccion.codigo }} </span>
+  <span>{{ listaRestriccion.mensaje }} </span>
+  
+  
+  <div *ngFor="let restriccion of listaRestriccion.valor ">
+    <span>{{ restriccion.codigo }} </span>
+    <span>{{ restriccion.nombre }} </span>
+    <span>{{ restriccion.descripcion }} </span>
+  </div>

@@ -1,0 +1,43 @@
+#navbar-principal{
+  position: relative;
+  background-color: #0168C5;
+  height: 100px;
+  color: #ffffff;
+}
+#img-logo{
+  height: 58.85px;
+  width: 135.37px;
+}
+
+#logo{
+  padding-top: 20px;
+}
+
+#user{
+  padding: 30px 5px 25px 40px;
+  margin: auto;
+  text-align: center;
+}
+
+#nombre-user{
+  padding-top: 20px;
+}
+
+#img-user{
+  height: 41px;
+  width: 41px;
+}
+
+#nombre-user{
+  padding-top: 7px;
+  padding-left: 52px;
+  padding-right: 15px;
+  font-family: Raleway;
+  font-size: 13pt;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+  background-color: black;
+}
